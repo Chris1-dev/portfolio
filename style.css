@@ -2,16 +2,21 @@ html {
    scroll-behavior: smooth;
 }
 
+section{
+  scroll-margin-top: 80px;
+  padding-top: 40px;
+}
+
 body {
   padding-top: 10px;
 }
 
-.github-icon {
-  animation: floatIcon 2s ease-in-out infinite;
-}
-
 .navbar-nav{
   text-align: center;
+}
+
+.github-icon {
+  animation: floatIcon 2s ease-in-out infinite;
 }
 
 @keyframes floatIcon {
@@ -34,8 +39,6 @@ body {
 
 .navbar-brand:hover{
   transform: scale(1.08);
-  
-
 }
 
 .underline{
@@ -139,7 +142,7 @@ h2:hover {
   transition: transform 0.3s ease;
 }
 
-#about img:hover{
+#about img:hover {
   transform: scale(1.05);
 }
 
@@ -186,25 +189,24 @@ footer a:hover {
 }
 
 .email-box a:hover  {
-  
   transform: translateY(-3px);
   background-color: white;
   color:#0d6efd ;
   box-shadow: 0 10px 20px rgba(13,110,253,0.25);;
 }
 
-.project-card{
+.project-card {
   border: none;
   border-radius: 14px;
   overflow: hidden;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
-
 }
 
 .project-card:hover {
   transform: translateY(-8px);
   box-shadow: 0 12px 30px rgba(0,0,0,0.15);
 }
+
 .project-card img {
   height: 220px;
   object-fit: cover;
